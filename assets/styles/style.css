@@ -1,0 +1,195 @@
+body{
+    margin: 0 auto;
+    font-family: Lato;
+    background-color: #B2BEB5;
+}
+
+/* ----- Encabezado -----*/
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: #efefef;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-style: outset;
+}
+
+header a{
+    color: #0a141d;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: rgb(183, 0, 255);
+}
+
+.empresa-encabezado{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.empresa-encabezado img{
+    height: 100px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.buscador {
+    height: 30px;
+    display: flex;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 30px;
+    align-items: center;
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+.buscador:hover input {
+    width: 400px;
+}
+
+.buscador input{
+    width: 0px;
+    outline: none;
+    border: none;
+    transition: 0.8s;
+    background: transparent;
+}
+.buscador a .fas{
+    color: #0a141d;
+    font-size: 18px;
+}
+
+/* ----- Centro de paginas ----- */
+
+.productos-principal h2{
+    margin-left: 173px;
+}
+
+.container-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.container-item img{
+    border-radius: 10px;
+    width: 200px;
+    transition: 5ms;
+}
+
+.container-info img:hover{
+    transform: scale(1.09);
+}
+
+.container-info button{
+    border: none;
+    background: none;
+    background-color: #0a141d;
+    color: #efefef;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+/* ----- Pie de pagina ----- */
+
+footer{
+    width: 100%;
+    background-color: #3B444B;
+}
+
+footer .grupo1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+footer .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .grupo1 .box figure img{
+    width: 150px;
+}
+
+footer .grupo1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+footer .grupo1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+footer .grupo1 #red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2023;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+footer .grupo1 #red-social a:hover{
+    color: aqua;
+
+}
+
+footer #derechos-reservados{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;    
+}
+
+/* ----- Para version Mobile ----- */
+
+@media screen and (max-width:700px){
+    
+    header{
+        flex-direction: column;
+    }
+    
+    nav{
+        padding: 10px;
+    }
+
+    footer .grupo1{
+        width: 90%;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;      
+    }
+
+}
