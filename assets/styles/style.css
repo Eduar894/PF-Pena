@@ -173,6 +173,60 @@ footer a{
     text-decoration: none;    
 }
 
+/* ----- Inicio de Sesion ----- */
+
+.Inicio-sesion{
+    display: grid;
+}
+
+.Inicio-sesion div{
+    display: grid;
+    justify-content: center;
+    border: double;
+}
+
+.texto-sesion{
+    text-align: justify;
+    display: grid;
+}
+
+.Inicio-sesion h2{
+    text-align: center;
+
+}
+
+.datos-sesion{
+    display: grid;
+    font-size:20px ;
+    max-width: 300px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+/* ----- Contacto ----- */
+
+.Contacto {
+    display: grid;
+    justify-content: center; 
+}
+
+.Contacto input{
+    width: 250px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* ----- Carrito ----- */
+
+
+
+
+
+
 /* ----- Para version Mobile ----- */
 
 @media screen and (max-width:700px){
