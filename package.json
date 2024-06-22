@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "En este proyecto se intenta hacer una pagina web de compra de articulos tecnologicos",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eduar894/Proyecto-Final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eduar894/Proyecto-Final/issues"
+  },
+  "homepage": "https://github.com/Eduar894/Proyecto-Final#readme"
+}
