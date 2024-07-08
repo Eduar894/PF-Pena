@@ -2,17 +2,22 @@
 <html lang="en">
 <head>
     <script src="https://kit.fontawesome.com/b408879b64.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./../assets/styles/style.css">
-    <title>Compra tus Componentes y aparatos al mejor precio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ahorra con nosotros y consigue los mejores dispositivos o tecnologias">
+    <meta name="keywords" content="Tecnologia, PC, Hardware, Placa Madre, Procesador, Tarjeta Grafica, Memoria Ram">
+    <link rel="stylesheet" href="./../assets/styles/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./../assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./../assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./../assets/img/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Inicio sesion</title>
 </head>
 <body>
 
 
     <header>
         <a href ="./../index.html" class="empresa-encabezado">
-            <img src="" alt="Logo de la compañia">
             <h2 class="nombre-empresa">Componentes RTChile</h2>
         </a>
         <div class="buscador">
@@ -22,9 +27,17 @@
             </a>
         </div>
         <nav>
-            <a href="./carrito.html" class="fa-solid fa-cart-shopping"></a>
-            <a href="./inicio-sesion.html" class="link-encabezado">Iniciar Sesion</a>
-            <a href="./contacto.html" class="link-encabezado">Contacto</a>
+            <ul class='nav-bar'>
+                <input type='checkbox' id='check' />
+                <span class="menu">
+                    <li><a href="./carrito.html" class="fa-solid fa-cart-shopping"></a></li>
+                    <li><a href="./../index.html">Inicio</a></li>
+                    <li><a href="./inicio-sesion.html">iniciar Sesion</a></li>
+                    <li><a href="/contacto.html">Contacto</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </ul>
         </nav>
     </header>
 
@@ -45,7 +58,6 @@
             <div class="box">
                 <figure>
                     <a href="./../index.html">
-                        <img src="" alt="Logo de la compañia">
                     </a>
                 </figure>
             </div>
